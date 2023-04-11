@@ -2,6 +2,11 @@ body {
   background-color: #ccc;
 }
 
+.header-text {
+  font-family: "Seaweed Script", cursive;
+  margin-left: 100px;
+}
+
 .main-section {
   max-width: 1700px;
   background-color: #fff;
@@ -11,18 +16,7 @@ body {
   padding-bottom: 10px;
 }
 
-.header-text {
-  font-family: "Seaweed Script", cursive;
-  margin-left: 100px;
-}
-
 /* Section 1 */
-.section-1 {
-  display: flex;
-  flex-direction: row;
-  margin-left: 100px;
-}
-
 .img1 {
   float: right;
   width: 100%;
@@ -44,6 +38,12 @@ body {
   font-family: "Nanum Brush Script", cursive;
 }
 
+.section-1 {
+  display: flex;
+  flex-direction: row;
+  margin-left: 100px;
+}
+
 .section1-paragraph {
   width: 100%;
   max-width: 600px;
@@ -53,11 +53,6 @@ body {
 }
 
 /* Section 2 */
-.section-2 {
-  display: flex;
-  flex-direction: row;
-}
-
 .img2 {
   float: left;
   width: 100%;
@@ -81,6 +76,11 @@ body {
   margin-left: -4%;
   margin-right: 35%;
   margin-top: -7%;
+}
+
+.section-2 {
+  display: flex;
+  flex-direction: row;
 }
 
 .section2-paragraph {
